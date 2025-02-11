@@ -402,6 +402,8 @@ section#justify-content-section {
 
 /* align-items */
 section#align-items-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
@@ -444,6 +446,8 @@ section#align-items-section {
 
 /* flex-wrap */
 section#flex-wrap-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
@@ -472,6 +476,8 @@ section#flex-wrap-section {
 
 /* align-content */
 section#align-content-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
@@ -539,6 +545,8 @@ section#align-content-section {
 
 /* gap */
 section#gap-section {
+  display: flex;
+  justify-content: center;
 /* place your code here */
 }
 
@@ -567,6 +575,8 @@ section#gap-section {
 
 /* flex-direction section */
 section#flex-direction-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
@@ -622,6 +632,8 @@ section#flex-direction-section {
 
 /* flex-flow section */
 section#flex-flow-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */ 
 }
 
@@ -671,10 +683,14 @@ section#flex-flow-section {
 
 /* flex section */
 section#flex-content-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 .flex-row-parent-container {
+  display: flex;
+  justify-content: center;
   /* Add display: flex; to make this div a parent flex container */
 }
 
@@ -709,31 +725,50 @@ section#flex-content-section {
 
 /* order */
 section#order-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 .order-parent-container {
+  display: flex;
+  justify-content: center;
   /* Add display: flex; to make this div a parent flex container */
   justify-content: space-around;
 }
 
 .order-child-flex-item-1 {
+  display: flex;
+  justify-content: center;
+  order: 5;
   /* place your code here */
 }
 
 .order-child-flex-item-2 {
+  display: flex;
+  justify-content: center;
+  order: 4;
   /* place your code here */
 }
 
 .order-child-flex-item-3 {
+  display: flex;
+  justify-content: center;
+  order: 3;
   /* place your code here */
 }
 
 .order-child-flex-item-4 {
+  display: flex;
+  justify-content: center;
+  order: 2;
   /* place your code here */
 }
 
 .order-child-flex-item-5 {
+  display: flex;
+  justify-content: center;
+  order: 1;
   /* place your code here */
 }
 
@@ -741,35 +776,56 @@ section#order-section {
 
 /* align-self */
 section#align-self-section {
+  display: flex;
+  justify-content: center;
   /* place your code here */
 }
 
 .align-self-parent-container {
+  display: flex;
   /* Add display: flex; to make this div a parent flex container */
   justify-content: space-around;
 }
 
 .align-self-auto-child-flex-item {
+  display: flex;
+  justify-content: center;
+  align-self: auto;
   /* place your code here */
 }
 
 .align-self-flex-start-child-flex-item {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
   /* place your code here */
 }
 
 .align-self-flex-end-child-flex-item {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
   /* place your code here */
 }
 
 .align-self-center-child-flex-item {
+  display: flex;
+  justify-content: center;
+  align-self: center;
   /* place your code here */
 }
 
 .align-self-baseline-child-flex-item {
+  display: flex;
+  justify-content: center;
+  align-self: baseline;
   /* place your code here */
 }
 
 .align-self-stretch-child-flex-item {
+  display: flex;
+  justify-content: center;
+  align-self: stretch;
   /* place your code here */
 }
 
